@@ -8,3 +8,7 @@ Part of speech tagging has applications in speech recognition, name entitities, 
 
 ## Auto-Complete using n-gram language model.
 N-gram language models have applications in speech recognition, auto-complete, spelling corrections, and augmentive communication. These models are probabilistic and calculate the probability of a next word in a sequence based on the number of times the word and the previous sequence occur in the training dataset. Although simple to implement, the memory consumption could be large for big datasets. Sequence language models solve this, but here an example of building n-gram models is shown and is applied for auto-completing a sentence (suggesting the next word).
+
+## Word embedding calculations
+The basic principle of using NNs to learn word embeddings is described. The notebook gives an example of using CBOW technique to learn word embeddings. The model is trained on Shakespeare's traing set that was used in another example.
+
