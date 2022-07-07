@@ -14,4 +14,5 @@ The basic principle of using NNs to learn word embeddings is described. The note
 
 ## Sentiment prediction using BERT
 This shows a simple multi-class classifier for sentiment prediction of tweets. The dataset is not so balanced and is small. There is another dataset on imdb reviews and I will try the same on that.
+
 Dataset: [Data](https://figshare.com/articles/dataset/smile_annotations_final_csv/3187909/2)
