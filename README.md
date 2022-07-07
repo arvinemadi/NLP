@@ -12,3 +12,6 @@ N-gram language models have applications in speech recognition, auto-complete, s
 ## Word embedding calculations
 The basic principle of using NNs to learn word embeddings is described. The notebook gives an example of using CBOW technique to learn word embeddings. The model is trained on Shakespeare's traing set that was used in another example.
 
+## Sentiment prediction using BERT
+This shows a simple multi-class classifier for sentiment prediction of tweets. The dataset is not so balanced and is small. There is another dataset on imdb reviews and I will try the same on that.
+Dataset: [Data](https://figshare.com/articles/dataset/smile_annotations_final_csv/3187909/2)
