@@ -16,3 +16,9 @@ The basic principle of using NNs to learn word embeddings is described. The note
 This shows a simple multi-class classifier for sentiment prediction of tweets. The dataset is not so balanced and is small. There is another dataset on imdb reviews and I will try the same on that.
 
 Dataset: [Data](https://figshare.com/articles/dataset/smile_annotations_final_csv/3187909/2)
+
+## Named Entity Recognition using Keras
+A simple model using Keras Sequential API and LSTM layers has been created. The word embedding are trained using an embedding layer and not loaded from a pre-trained model. Improvements could be trying with pre-trained embeddings and using bidirectional LSTM. This was a simple illustration.
+During the model building noticed that if the model is not set up carefully it will converge to one single tag for all words. Since the padding tag of 'O' is more abundant that other tags, the model evaluation has be done carefully.
+Dataset: [Data](https://www.kaggle.com/datasets/abhinavwalia95/entity-annotated-corpus)
+
