@@ -23,3 +23,5 @@ During the model building noticed that if the model is not set up carefully it w
 
 Dataset: [Data](https://www.kaggle.com/datasets/abhinavwalia95/entity-annotated-corpus)
 
+## IMDB sentiment prediction using BERT transformers.
+Similar to the previous sentiment analysis with BERT. This time dataset is larger and better. Data is available to load from torchdata and the reference is given in the notebook. The classification is binary this time.
