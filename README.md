@@ -25,3 +25,8 @@ Dataset: [Data](https://www.kaggle.com/datasets/abhinavwalia95/entity-annotated-
 
 ## IMDB sentiment prediction using BERT transformers.
 Similar to the previous sentiment analysis with BERT. This time dataset is larger and better. Data is available to load from torchdata and the reference is given in the notebook. The classification is binary this time.
+
+## Starting to use HuggingFace models for complex tasks
+I want to show step by step guide on how to use pre-trained HuggingFace models for more complex tasks and train/fine-tune them on new data.
+This first notebook is just a simple example of loading a pre-trained question answering model. As a test two questions are asked from the model. In the next step we will show how to find tune the model on a well-known dataset.
+Next goal is then to use this model or a similar model to design a question generator. This can be used for example by teachers to design exam questions!
