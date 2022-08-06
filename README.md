@@ -30,3 +30,8 @@ Similar to the previous sentiment analysis with BERT. This time dataset is large
 I want to show step by step guide on how to use pre-trained HuggingFace models for more complex tasks and train/fine-tune them on new data.
 This first notebook is just a simple example of loading a pre-trained question answering model. As a test two questions are asked from the model. In the next step we will show how to find tune the model on a well-known dataset.
 Next goal is then to use this model or a similar model to design a question generator. This can be used for example by teachers to design exam questions!
+
+## (NER) Named Entity Recognition using Glove
+To improve NER, instead of learning the embedding, that could not be accurate with a small set, pre-trained embeddings of the words are used.
+After tokenizing the words in each sentence, all words are mapped into their embedding if it exists in the vocabulary of the Glove, otherwise random embedding is assigned to them.
+Some of the tags have low probability in the dataset and the model does not perform well for them. The solution could be for example to oversample those during the training using a Weighted Sampler. 
