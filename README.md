@@ -35,3 +35,6 @@ Next goal is then to use this model or a similar model to design a question gene
 To improve NER, instead of learning the embedding, that could not be accurate with a small set, pre-trained embeddings of the words are used.
 After tokenizing the words in each sentence, all words are mapped into their embedding if it exists in the vocabulary of the Glove, otherwise random embedding is assigned to them.
 Some of the tags have low probability in the dataset and the model does not perform well for them. The solution could be for example to oversample those during the training using a Weighted Sampler. 
+
+## (Text Summarization) Fine-tuning flan-t5 for text summarization
+Work in progress. Using examples from huggingface to fine tune flan-t5-base/small/large/xl on different datasets
